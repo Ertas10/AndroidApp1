@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        final TextView textView = new TextView(this);
+        /*final TextView textView = new TextView(this);
         textView.setText("Fuck off");
         textView.setVisibility(View.INVISIBLE);
 
@@ -36,9 +36,9 @@ public class MainActivity extends AppCompatActivity {
         linearLayout.addView(textView);
         linearLayout.addView(button);
 
-        setContentView(linearLayout);
-        //
-        // setContentView(R.layout.activity_main);
+        setContentView(linearLayout);*/
+        TextView textView = findViewById(R.id.text1);
+        setContentView(R.layout.activity_main);
     }
 
 
